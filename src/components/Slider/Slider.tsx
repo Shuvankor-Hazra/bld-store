@@ -7,6 +7,15 @@ import {
     KeenSliderInstance,
 } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
+import slider1 from "../../assets/slide1.png";
+import slider2 from "../../assets/slide2.jpg";
+import slider3 from "../../assets/slide3.jpg";
+import slider4 from "../../assets/slide4.jpg";
+import slider5 from "../../assets/slide5.jpg";
+import slider6 from "../../assets/slide6.jpg";
+import slider7 from "../../assets/slide7.png";
+import slider8 from "../../assets/slide8.jpg";
+import Image from "next/image"
 
 function ThumbnailPlugin(
     mainRef: MutableRefObject<KeenSliderInstance | null>
@@ -61,21 +70,57 @@ export default function Slider() {
     return (
         <div className="mx-10">
             <div ref={sliderRef} className="keen-slider mb-3">
-                <div className="keen-slider__slide number-slide1">1</div>
-                <div className="keen-slider__slide number-slide2">2</div>
-                <div className="keen-slider__slide number-slide3">3</div>
-                <div className="keen-slider__slide number-slide4">4</div>
-                <div className="keen-slider__slide number-slide5">5</div>
-                <div className="keen-slider__slide number-slide6">6</div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider1} alt="" />
+                </div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider2} alt="" />
+                </div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider3} alt="" />
+                </div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider4} alt="" />
+                </div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider5} alt="" />
+                </div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider6} alt="" />
+                </div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider7} alt="" />
+                </div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider8} alt="" />
+                </div>
             </div>
 
             <div ref={thumbnailRef} className="keen-slider thumbnail">
-                <div className="keen-slider__slide number-slide1">1</div>
-                <div className="keen-slider__slide number-slide2">2</div>
-                <div className="keen-slider__slide number-slide3">3</div>
-                <div className="keen-slider__slide number-slide4">4</div>
-                <div className="keen-slider__slide number-slide5">5</div>
-                <div className="keen-slider__slide number-slide6">6</div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider1} alt="" />
+                </div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider2} alt="" />
+                </div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider3} alt="" />
+                </div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider4} alt="" />
+                </div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider5} alt="" />
+                </div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider6} alt="" />
+                </div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider7} alt="" />
+                </div>
+                <div className="keen-slider__slide number-slide1">
+                    <Image src={slider8} alt="" />
+                </div>
             </div>
         </div>
     )
