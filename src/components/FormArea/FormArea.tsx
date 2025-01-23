@@ -7,8 +7,8 @@ import CountdownTimer2 from '../CountdownTimer2/CountdownTimer2';
 const FormArea = () => {
     return (
         <div style={{ background: "linear-gradient(rgb(217, 217, 217) 0%, rgb(255, 255, 255) 100%)" }}>
-            <div className='mx-3 py-2 relative'>
-                <div className='flex items-center gap-6'
+            <div className='mx-3 py-2 '>
+                <div className='flex items-center gap-6 relative overflow-hidden'
                     style={{ background: "linear-gradient(rgb(115, 2, 0) 0%, rgb(255, 255, 255) 100%)" }}>
                     <Image src={newYear} alt='' width={125} height={135} />
                     <div className='text-white text-center space-y-1'>
@@ -16,7 +16,7 @@ const FormArea = () => {
                         <span className='text-xs'>Only</span>
                         <h2 className='text-[#008906] text-[32px] font-bold border-2 border-[#008906] px-2 bg-[#eeff49] shadow-lg'>2,299Tk</h2>
                     </div>
-                    <Image className='absolute -right-4 -top-[60px] -bottom-10' src={watch} alt='' width={145} height={213} />
+                    <Image className='absolute -right-4 -top-[55px]' src={watch} alt='' width={130} height={210} />
                 </div>
             </div>
             <div className='text-center bg-[#ffc107] mx-3 rounded-md pb-8'>
@@ -66,9 +66,8 @@ const FormArea = () => {
                     </label>
                 </div>
 
-                {/* Btn */}
+                {/* Button */}
                 <div className="relative">
-                    {/* Animated GIF */}
                     <Image
                         height={80}
                         width={80}
@@ -76,7 +75,7 @@ const FormArea = () => {
                         alt="Rotating GIF"
                         className="absolute right-9 -top-3 transform rotate-[123deg]"
                     />
-                    {/* Button */}
+
                     <button className="bg-black text-[#fda354] border-2 border-[#E5E7EB] text-xl font-bold py-2 px-6 rounded-[14px] uppercase z-10">
                         Complete Registration
                     </button>

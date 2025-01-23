@@ -16,7 +16,7 @@ const LuckyGift = () => {
                         <Image src={off} alt="" width={192} height={192} />
                         <div className="-ml-8">
                             <div className="flex justify-center items-center gap-2 border-2 border-white px-2">
-                                <h3 className="text-[23px]"><del>5,499Tk</del></h3>
+                                <h3 className="text-[22px]"><del>5,499Tk</del></h3>
                                 <span
                                     style={{
                                         clipPath: "polygon(0 0, 0% 100%, 100% 50%)",
@@ -27,7 +27,7 @@ const LuckyGift = () => {
                                         borderLeft: "2px solid #fff"
                                     }}
                                 ></span>
-                                <h2 className="text-[30px] font-bold">2,299TK</h2>
+                                <h2 className="text-[30px] font-bold">2,299Tk</h2>
                             </div>
                             <h2 className="text-2xl">ONLY TODAY</h2>
                         </div>
