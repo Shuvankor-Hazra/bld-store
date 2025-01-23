@@ -31,7 +31,7 @@ const Footer = () => {
             <div className="mx-3 space-y-2">
                 <h2 className="text-center text-[27px] font-bold mb-3">যোগাযোগের তথ্য</h2>
                 <div className="flex gap-2">
-                    <MdHome className="text-[24px]" />
+                    <MdHome className="text-[26px]" />
                     <p className="text-[14px]">Address: 47 Atlas Road San Bartolome, Novaliches, Quezon City, Metro Manila</p>
                 </div>
                 <div className="flex gap-2">
