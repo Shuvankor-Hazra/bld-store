@@ -37,8 +37,8 @@ const LuckyGift = () => {
             <div className="-translate-y-3">
                 <Image src={info} alt="" />
             </div>
-            <div className="relative overflow-hidden">
-                <h2 className="bg-[#edf0ff] text-[#008906] text-[23px] max-w-[360px] p-3 pr-10 "><span className=" font-bold">মহিলাদের জন্য দুর্দান্ত উপহার</span> (দাদি, মা, বান্ধবী, জন্মদিনের উপহার, ...)</h2>
+            <div className="relative">
+                <h2 className="bg-[#edf0ff] text-[#008906] text-[23px] w-4/5 p-3 pr-10 "><span className=" font-bold">মহিলাদের জন্য দুর্দান্ত উপহার</span> (দাদি, মা, বান্ধবী, জন্মদিনের উপহার, ...)</h2>
                 <div className="absolute -top-[77px] -right-14">
                     <Image alt="" src={gift} width={270} />
                 </div>
