@@ -21,7 +21,7 @@ const FormArea = () => {
                             <span className='text-xs'>Only</span>
                             <h2 className='text-[#008906] text-[32px] font-bold border-2 border-[#008906] px-2 bg-[#eeff49] shadow-lg'>2,299Tk</h2>
                         </div>
-                        <Image className='absolute -right-2 top-[350px]' src={watch} alt='' width={145} height={210} />
+                        <Image className='absolute -right-2 top-[355px]' src={watch} alt='' width={150} height={210} />
                     </div>
                 </div>
                 <div className='text-center bg-[#ffc107] mx-3 rounded-md pb-8'>
