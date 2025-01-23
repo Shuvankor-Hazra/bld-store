@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import newYear from "../../assets/newYear.png";
 import watch from "../../assets/watch4.png";
+import clickHand from "../../assets/clickHand.gif";
 import CountdownTimer2 from '../CountdownTimer2/CountdownTimer2';
 
 const FormArea = () => {
@@ -48,17 +49,17 @@ const FormArea = () => {
 
                 {/* Checkbox */}
                 <div className='bg-white px-3 py-1 rounded-[9px] m-3 space-y-2'>
-                    <label className="flex items-center space-x-3">
+                    <label className="flex items-center space-x-2">
                         <input type="checkbox"
                             className="form-checkbox text-blue-600 rounded" />
                         <span className='text-[14px]'>Buy 1 watch 2,299Tk + 100Tk Fee Shipping</span>
                     </label>
-                    <label className="flex items-center space-x-3">
+                    <label className="flex items-center space-x-2">
                         <input type="checkbox"
                             className="form-checkbox text-blue-600 rounded" />
                         <span className='text-[14px]'>Buy 2 watch 3,899Tk + Free Shipping</span>
                     </label>
-                    <label className="flex items-center space-x-3">
+                    <label className="flex items-center space-x-2">
                         <input type="checkbox"
                             className="form-checkbox text-blue-600 rounded" />
                         <span className='text-[14px]'>Buy 3 watch Get 1 Free 5,999Tk + Free Shipping</span>
@@ -66,9 +67,22 @@ const FormArea = () => {
                 </div>
 
                 {/* Btn */}
-                <button className="bg-black text-[#fda354] border-2 border-[#E5E7EB] text-xl font-bold py-2 px-6 rounded-[14px] uppercase">
-                    Complete Registration
-                </button>
+                <div className="relative">
+                    {/* Animated GIF */}
+                    <Image
+                        height={80}
+                        width={80}
+                        src={clickHand}
+                        alt="Rotating GIF"
+                        className="absolute right-9 -top-3 transform rotate-[123deg]"
+                    />
+                    {/* Button */}
+                    <button className="bg-black text-[#fda354] border-2 border-[#E5E7EB] text-xl font-bold py-2 px-6 rounded-[14px] uppercase z-10">
+                        Complete Registration
+                    </button>
+                </div>
+
+
             </div>
         </div>
     );
