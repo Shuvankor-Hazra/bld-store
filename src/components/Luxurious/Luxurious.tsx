@@ -5,7 +5,7 @@ import img2 from "../../assets/watch3.jpg";
 const Luxurious = () => {
     return (
         <>
-            <div className="mt-8 relative overflow-hidden">
+            <div className="relative overflow-hidden">
                 <Image className="-ml-16" src={img} alt="" />
                 <div className="absolute top-0 left-0 text-black bg-white p-2">
                     <h2 className="text-4xl font-bold mb-2">সুন্দর এবং বিলাসবহুল</h2>

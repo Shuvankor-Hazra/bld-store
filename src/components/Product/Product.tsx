@@ -1,5 +1,4 @@
-import Image from "next/image";
-import img from "../../assets/women3.jpg";
+
 
 const styles = "relative pl-6 before:content-[''] before:absolute before:top-2 before:left-0  before:w-3 before:h-3 before:bg-[#008906] before:[clip-path:polygon(50%_0,100%_25%,50%_100%,0_25%)] text-lg"
 const Product = () => {
@@ -23,10 +22,6 @@ const Product = () => {
                     পণ্য সেট অন্তর্ভুক্ত: ঘড়ি, বাক্স
                 </p>
             </div>
-            <div>
-                <Image src={img} alt="" />
-            </div>
-
         </div >
     );
 };
